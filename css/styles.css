@@ -1,0 +1,229 @@
+body {
+    
+  background: linear-gradient(   rgb(122, 0, 96),rgba(136,203,171,1) );
+    margin: 5;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    height:1000px;
+}
+/* Typeography General*/
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.8em;
+}
+
+h2 {
+    
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.5em;
+  color: #25030f;
+}
+h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2em;
+  color: #25030f; 
+}
+p {
+    line-height: 1.6em;
+    color: #eee;
+}
+img {
+  border-radius: 50%;
+  height:120px;
+}
+
+/* ---- Layout Rules ---- */
+main {
+    margin: 1vh 1em 10v;
+}
+
+
+/* Navigation Styles*/
+.navbar__menu ul {
+    padding-left: 0;
+    padding-top: 0;
+    margin: 0;
+    text-align: right;
+    background-color: rgb(129, 3, 102);
+}
+
+.navbar__menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+  /* visited link */
+ a:visited {
+    background-color: #5f1643;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  /* mouse over link */
+  a:hover {
+    color: hotpink;text-decoration: none;
+  }
+  /* selected link */
+  a:active {
+    color: blue;text-decoration: none;
+  }
+  /* unvisited link */
+  a:link{
+    background-color: #5f1643;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.navbar__menu .menu__link {
+    display: block;
+    /*padding: 1em;*/
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    background-color: #5f1643
+}
+
+.navbar__menu .menu__link:hover {
+    background: #333;
+    
+    transition: ease 0.3s all;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.page__header {
+    background: rgb(118, 0, 96) ;
+    height:5px;
+   
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    
+}
+label { 
+    color: #25030f; 
+    font-weight: bold; 
+    float: center;
+   } 
+   table, th, tr,td {
+    color: #25030f; 
+   
+  padding-bottom: 5px;
+  }
+ 
+tr{
+    width:50%;
+}
+td{
+  width:50%; 
+}
+input[type=submit] {
+        font-weight: bold; 
+        padding: 5px 10px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        background: rgb(150, 109, 141);
+        border-radius: 4px;
+        box-sizing: border;
+        font-size: 1.25em;
+        color: #25030f; 
+      }
+      input[type=reset] {
+        font-weight: bold; 
+        padding: 5px 10px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        background: rgb(150, 109, 141);
+        border-radius: 4px;
+        box-sizing: border;
+        font-size: 1.25em;
+        color: #25030f; 
+      }
+input[type=email] {
+    width: 200px;
+    Height: 0px;
+    padding: 12px ;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  input[type=file] {
+    background: rgb(150, 109, 141);
+    
+  }
+  input[type=text] {
+    width: 200px;
+    Height: 0px;
+    padding: 12px ;
+    
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  input[type=number] {
+    width: 200px;
+    Height: 0px;
+    padding: 12px ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  input[type=password] {
+    width: 200px;
+    Height: 25px;
+   
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=text]:disabled {
+   width: 200px;
+    Height: 0px;
+    background:  rgb(129, 74, 117) ;
+    color: white;
+  }
+  input[type=email]:disabled {
+      width: 200px;
+    Height: 3%;
+    background:  rgb(129, 74, 117) ;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  input[type=password]:disabled {
+      width: 10%;
+    Height: 3%;
+     background:  rgb(129, 74, 117) ;
+    color: white;
+  }
+
+html{
+  
+   height:auto;
+   scroll-behavior: smooth;
+}
